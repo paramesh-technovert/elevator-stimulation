@@ -1,0 +1,32 @@
+.d-flex{
+    display: flex;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+.elevator-level{
+    margin: auto;
+    align-items: center;
+}
+.directions{
+    padding-left: 20px;
+}
+.flex-fill{
+    flex-grow: 1;
+}
+.display-text{
+    text-align: end;
+    padding-right: 20px;
+    width: 10%;
+}
+#userInputContainer{
+    display: none;
+}
+.user{
+    background-color: greenyellow;
+    border-radius: 50%;
+    padding: 0px 3px;
+    margin-right: 2px;
+}

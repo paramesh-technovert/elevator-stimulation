@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Elevator Stimulation</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div id="elevatorContainer">
+        <div id="container">
+            <div>
+                <label>Enter number of floors</label>
+                <input name="floors" type="number" id="floors" />
+            </div>
+            <div>
+                <label>Enter capacity of elevator</label>
+                <input name="capcity" type="number" id="capacity" />
+            </div>
+            <button type="button" onclick="updateFloors()">Submit</button>
+        </div>
+        <div id="userInputContainer">
+            <label>Enter floor to exit</label>
+            <input name="userInput" type="number" id="userInput" />
+            <button type="button" onclick="inputUsers()">Enter</button>
+            <button type="button" onclick="start()">Start</button>
+        </div>
+    </div>
+    <div id="elevatorDisplay">
+    </div>
+</body>
+
+</html>
